@@ -1,0 +1,7 @@
+com\mycompany\chatapplication\resources\JakartaEE11Resource.class
+com\mycompany\websocket\UserlistEncoder.class
+com\mycompany\chatapplication\JakartaRestConfiguration.class
+com\mycompany\model\Message.class
+com\mycompany\websocket\ChatEncoder.class
+com\mycompany\websocket\ChatEndPoint.class
+com\mycompany\websocket\ChatDecoder.class

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: chat-websocket-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: JAVA_OPTS
+        value: "-Dfile.encoding=UTF-8"
+    autoDeploy: true
