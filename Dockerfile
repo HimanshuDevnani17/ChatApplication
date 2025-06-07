@@ -19,7 +19,7 @@ FROM eclipse-temurin:21-jdk
 WORKDIR /app
 
 # Copy only the built WAR from previous stage
-COPY --from=builder /app/target/ChatApplication.war /app/app.war
+COPY --from=builder /app/target/chatapplication-1.0-SNAPSHOT.war /app/app.war
 
 # Install and run Payara Micro (lightweight Java EE server)
 RUN curl -O https://repo1.maven.org/maven2/fish/payara/distributions/payara-micro/6.2024.3/payara-micro-6.2024.3.jar
